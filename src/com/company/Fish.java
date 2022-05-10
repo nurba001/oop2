@@ -6,7 +6,7 @@ public class Fish {
     private String swim1;
 
     public void setNameFish(String nameFish) {
-        this.nameFish = nameFish;
+      this.nameFish = nameFish;
     }
 
     public String getNameFish() {
