@@ -7,9 +7,9 @@ public class Main {
 
     public static void main(String[] args) {
         Class class1 = new Class(10, "class", 12, 23, 34);
+        new Class(11,"claas",11,10,9);
 
-
-        System.out.println( class1.toString());
+//        System.out.println( class1.toString());
 
      /*   Class class1 = new Class(23,"gh",1,5,46);
        //Class class2= new Class(12,"pqwp",2,3,4,5);

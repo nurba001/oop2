@@ -11,11 +11,11 @@ public class Class {
         this.a=a;
         this.s=s;
         this.arr=arr;
-
+        System.out.println("Class{" + "a=" + a + ", s='" + s + '\'' + ", arr=" + Arrays.toString(arr) + '}');
     }
 
-    @Override
-    public String toString() {
+
+   /* public String toString() {
         return "Class{" + "a=" + a + ", s='" + s + '\'' + ", arr=" + Arrays.toString(arr) + '}';
-    }
+    }*/
 }
