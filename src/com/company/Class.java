@@ -1,37 +1,21 @@
 package com.company;
 
+import java.util.Arrays;
+
 public class Class {
     private int a;
     private String s;
     private int[] arr;
 
     public  Class(int a, String s, int ... arr) {
+        this.a=a;
+        this.s=s;
+        this.arr=arr;
 
     }
-    public void setA(int a) {
-        this.a = a;
-    }
-    public int getA() {
-        return a;
-    }
 
-
-
-    public String getS() {
-        return s;
-    }
-
-    public void setS(String s) {
-        this.s = s;
-    }
-
-
-
-
-    public void setArr(int...arr) {
-        this.arr = arr;
-    }
-    public int[] getArr() {
-        return arr;
+    @Override
+    public String toString() {
+        return "Class{" + "a=" + a + ", s='" + s + '\'' + ", arr=" + Arrays.toString(arr) + '}';
     }
 }

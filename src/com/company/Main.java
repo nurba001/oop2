@@ -1,11 +1,17 @@
 package com.company;
 
+import java.io.File;
 import java.util.Arrays;
 
 public class Main {
 
     public static void main(String[] args) {
-        Class class1 = new Class(23,"gh",1,5,46);
+        Class class1 = new Class(10, "class", 12, 23, 34);
+
+
+        System.out.println( class1.toString());
+
+     /*   Class class1 = new Class(23,"gh",1,5,46);
        //Class class2= new Class(12,"pqwp",2,3,4,5);
         class1.setS("dssds");
         System.out.println(class1.getS());
@@ -13,7 +19,7 @@ public class Main {
         System.out.println(class1.getA());
         class1.setArr(123,23,422,23);
         System.out.println(Arrays.toString(class1.getArr()));
-
+*/
     /*Fish fish=new Fish();
     Parrot parrot=new Parrot();
     Cat cat=new Cat();
